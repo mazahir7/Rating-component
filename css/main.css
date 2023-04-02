@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.display-block {
+  display: block !important;
+}
+
+.rating {
+  width: 25%;
+  padding: 2.8rem;
+  border-radius: 22px;
+  background-color: hsl(213, 19%, 18%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rating > * {
+  margin-bottom: 2rem;
+}
+.rating__icon {
+  background-color: rgb(53, 62, 73);
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+}
+.rating__icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rating__heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+.rating__paragraph {
+  line-height: 1.6;
+  font-size: 1.3rem;
+  color: hsl(216, 12%, 54%);
+  margin-top: -1rem;
+}
+.rating__meter {
+  display: flex;
+  gap: 1.8rem;
+}
+.rating__meter input[type=radio] {
+  display: none;
+}
+.rating__meter input[type=radio]:checked + label {
+  background-color: hsl(216, 12%, 54%);
+}
+.rating__meter input[type=radio]:checked + label span {
+  color: hsl(0, 0%, 100%);
+}
+.rating__meter label {
+  cursor: pointer;
+  background-color: rgb(53, 62, 73);
+  box-shadow: 0 1rem 7rem 1rem hsl(216, 12%, 8%);
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  text-align: center;
+}
+.rating__meter label:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.rating__meter label span {
+  color: hsl(216, 12%, 54%);
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 1.3rem;
+  font-weight: 700;
+}
+.rating__meter label:hover span {
+  color: hsl(0, 0%, 100%);
+}
+.rating__submit {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 33px;
+}
+.rating__submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.thank {
+  width: 25%;
+  padding: 2.8rem;
+  border-radius: 22px;
+  background-color: hsl(213, 19%, 18%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.thank > * {
+  margin-bottom: 2.4rem;
+}
+.thank__icon img {
+  height: 9rem;
+}
+.thank__rating {
+  background-color: hsl(216, 15.45%, 24.18%);
+  color: rgba(251, 116, 19, 0.9);
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 22px;
+}
+.thank__heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin-top: 3.6rem;
+}
+.thank__paragraph {
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: hsl(216, 12%, 54%);
+  margin-top: -1.6rem;
+  width: 96%;
+}
+
+@media (max-width: 81em) {
+  .rating {
+    width: 30%;
+  }
+  .thank {
+    width: 30%;
+  }
+}
+@media (max-width: 69em) {
+  .rating {
+    width: 35%;
+  }
+  .thank {
+    width: 35%;
+  }
+}
+@media (max-width: 56em) {
+  .rating {
+    width: 45%;
+  }
+  .thank {
+    width: 45%;
+  }
+}
+@media (max-width: 44em) {
+  .rating {
+    width: 55%;
+  }
+  .thank {
+    width: 55%;
+  }
+}
+@media (max-width: 36em) {
+  .rating {
+    width: 70%;
+  }
+  .thank {
+    width: 70%;
+  }
+}
+@media (max-width: 29.5em) {
+  .rating {
+    width: 85%;
+  }
+  .thank {
+    width: 85%;
+  }
+}
+@media (max-width: 23em) {
+  .rating {
+    width: 98%;
+  }
+  .thank {
+    width: 98%;
+  }
+}
+.section-rating,
+.section-thank {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.section-thank {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
