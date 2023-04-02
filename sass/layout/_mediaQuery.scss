@@ -1,0 +1,78 @@
+// Media Query
+
+// 1296px
+@media (max-width: 81em) {
+   .rating {
+      width: 30%;
+   }
+
+   .thank {
+      width: 30%;
+   }
+}
+
+// 1104px
+@media (max-width: 69em) {
+   .rating {
+      width: 35%;
+   }
+
+   .thank {
+      width: 35%;
+   }
+}
+
+// 896px
+@media (max-width: 56em) {
+   .rating {
+      width: 45%;
+   }
+
+   .thank {
+      width: 45%;
+   }
+}
+
+// 704px
+@media (max-width: 44em) {
+   .rating {
+      width: 55%;
+   }
+
+   .thank {
+      width: 55%;
+   }
+}
+
+// 576px
+@media (max-width: 36em) {
+   .rating {
+      width: 70%;
+   }
+
+   .thank {
+      width: 70%;
+   }
+}
+
+// 472px
+@media (max-width: 29.5em) {
+   .rating {
+      width: 85%;
+   }
+
+   .thank {
+      width: 85%;
+   }
+}
+
+// 368px
+@media (max-width: 23em) {
+   .rating {
+      width: 98%;
+   }
+
+   .thank {
+      width: 98%;
+   }
+}
